@@ -1,0 +1,91 @@
+body{
+    background-color: aliceblue;
+    
+}
+.join{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content:space-around;
+}
+h1{
+    color: cyan;
+    font-size: 29px;
+    word-spacing: 2px;
+}
+h3{
+    color: yellowgreen;
+    margin-top: -10px;
+}
+.blue{
+    color: gray;
+    font-weight: bold;
+    margin-top: -9px;
+}
+.blu{
+    color: gray;
+    margin-top: -7px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    align-items: center;
+ }
+ .month{
+     background-color: rgb(6, 190, 190);
+     padding: 60px;
+     border-radius: 1px;
+ }
+ h2{
+     font-size: 20px;
+     color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     margin-top: -25px;
+ }
+ span{
+     font-size: 27px;
+     color: white;
+     font-weight: bolder;
+     font-family: serif
+ }
+ p{
+     color:aliceblue;
+     font-weight: lighter;
+ }
+#full{
+    color: aliceblue;
+    font-weight: light;
+    font-size: 18px;
+}
+button{
+    padding: 10px 100px;
+    background-color:yellowgreen;
+    color: white;
+    border-radius: 1px;
+    margin-top: 18px;
+    cursor: pointer;
+
+}
+.why{
+    /* background-color: rgb(20, 238, 238); */
+    background-color: rgb(70, 180, 180);
+    padding: 45px;
+    border-radius: 5px;
+}
+#why{
+    margin-bottom: -30px;
+    
+}
+li{
+    list-style: none;
+    
+}
+ul{
+    flex-grow: 1;
+margin-top: 70px;
+margin-left: -70px;
+margin-right: 120px;
+color: aliceblue;
+    font-weight: lighter;
+    line-height: 20px;
+}
